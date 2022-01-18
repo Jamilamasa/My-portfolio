@@ -55,7 +55,7 @@
     .menu-branding .portrait {
       width: 250px;
       height: 250px;
-      background: url("../img/Jamil-amasa.jpg") no-repeat center top/cover;
+      background: url("../img/Jamil-amasa.jpeg") no-repeat center top/cover;
       border-radius: 50%;
       border: solid 3px #eece1a; }
   .menu .nav-item {
@@ -160,7 +160,8 @@ main {
     grid-area: bioimage;
     margin: auto;
     border-radius: 50%;
-    border: #eece1a 3px solid; }
+    border: #eece1a 3px solid; 
+  width: 10rem;}
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
@@ -261,7 +262,7 @@ main {
     height: 25vh;
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
-      background: url("../img/Jamil-amasa.jpg") no-repeat center top/cover;
+      background: url("../img/Jamil-amasa.jpeg") no-repeat center top/cover;
       width: 150px;
       height: 150px; }
   .about-info {
@@ -271,7 +272,7 @@ main {
     grid-template-columns: repeat(2, 1fr); } }
 
 @media screen and (max-width: 500px) {
-  main {
+  main { 
     padding: 2rem; }
     main #home h1 {
       margin-top: 10vh; }
